@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "browserify src/index.js -o docs/index.js"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "chance": "^1.1.11",
+    "css-generators": "^1.0.0"
+  }
+}
